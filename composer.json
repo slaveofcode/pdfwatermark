@@ -1,0 +1,19 @@
+{
+    "name": "slaveofcode/pdfwatermark",
+    "description": "A PHP watermark library that produce PDF-watermarked file from any document like pdf, doc, docx, xlsx etc.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zeandcode",
+            "email": "zeandcode@gmail.com"
+        }
+    ],
+    "require": {
+	"php": ">=5.6.4",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^1.6"
+    },
+    "psr-4": {
+        "PDFWatermark\\": "src"
+    }
+}
